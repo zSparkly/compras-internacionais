@@ -10,10 +10,10 @@ Comando: `mvnw.cmd -Pintegracao verify`.
 | --- | ---: | ---: | ---: | ---: |
 | CalculoServiceTest | 6 | 0 | 0 | 0 |
 | CompraServiceTest | 7 | 0 | 0 | 0 |
-| CotacaoServiceTest | 15 | 0 | 0 | 0 |
+| CotacaoServiceTest | 17 | 0 | 0 | 0 |
 | ValidacaoTest | 6 | 0 | 0 | 0 |
 | CompraApiIT | 32 | 0 | 0 | 0 |
-| **Total** | **66** | **0** | **0** | **0** |
+| **Total** | **68** | **0** | **0** | **0** |
 
 Resultado: **BUILD SUCCESS**. Os arquivos `.txt` desta pasta são os resumos reais
 gerados por Surefire e Failsafe. Casos parametrizados contam como execuções individuais.
@@ -49,3 +49,8 @@ Em 23/10/2026, às 19:47 no horário de São Paulo:
 
 Os valores de cotação variam. Esses resultados são evidências de uma execução,
 não valores fixos esperados nas próximas consultas.
+
+## Revisão final
+
+A suíte foi repetida às 19:53, com 68 testes aprovados, após reforçar a rejeição de
+cotações com expoentes numéricos extremos. O pacote de entrega contém essa revisão.

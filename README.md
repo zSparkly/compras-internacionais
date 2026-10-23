@@ -281,7 +281,7 @@ mês. Em execução normal, a aplicação usa o relógio atual do fuso configura
 - Duas compras simultâneas: uma aprovada e outra rejeitada quando a soma ultrapassaria o limite.
 - Erros com data/hora, status, código, mensagem e detalhes; sem stack trace.
 
-Resultado verificado em **23/10/2026**: **66 testes aprovados**, sendo 34 unitários
+Resultado verificado em **23/10/2026**: **68 testes aprovados**, sendo 36 unitários
 e 32 de integração, sem falhas, erros ou testes ignorados, em MySQL 8.4.11.
 Também foi realizada uma compra com a AwesomeAPI real, pela aplicação empacotada.
 Os relatórios e as respostas reais estão em [docs/testes/VALIDACAO.md](docs/testes/VALIDACAO.md).

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.aula.pos.compras.CompraServiceTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.694 s -- in com.aula.pos.compras.CompraServiceTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.825 s -- in com.aula.pos.compras.CompraServiceTest

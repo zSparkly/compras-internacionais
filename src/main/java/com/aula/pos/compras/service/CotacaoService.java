@@ -42,11 +42,11 @@ public class CotacaoService {
             BigDecimal venda = new BigDecimal(response.dolar().ask()).stripTrailingZeros();
             LocalDateTime dataHora = LocalDateTime.parse(response.dolar().createDate(), FORMATO);
             // Preserve the exact rate within the DECIMAL(30,15) column; never silently truncate it.
-            if (venda.signum() <= 0 || venda.scale() > 15 || venda.precision() - venda.scale() > 15) {
+            if (venda.signum() <= 0 || venda.scale() > 15 || (long) venda.precision() - venda.scale() > 15) {
                 throw new CotacaoInvalidaException();
             }
             return new Cotacao(venda, dataHora);
-        } catch (NumberFormatException | DateTimeParseException e) {
+        } catch (NumberFormatException | DateTimeParseException | ArithmeticException e) {
             throw new CotacaoInvalidaException();
         }
     }

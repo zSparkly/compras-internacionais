@@ -32,7 +32,9 @@ class CotacaoServiceTest {
             Arguments.of("5,4", "2026-10-16 17:00:00"), Arguments.of("5.4", null),
             Arguments.of("5.4", ""), Arguments.of("5.4", "2026-02-30 17:00:00"),
             Arguments.of("5.4", "2026-10-16"), Arguments.of("1E+40", "2026-10-16 17:00:00"),
-            Arguments.of("0.0000000000000001", "2026-10-16 17:00:00")
+            Arguments.of("0.0000000000000001", "2026-10-16 17:00:00"),
+            Arguments.of("1e2147483647", "2026-10-16 17:00:00"),
+            Arguments.of("1000e2147483647", "2026-10-16 17:00:00")
         );
     }
 
