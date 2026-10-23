@@ -7,6 +7,10 @@ de R$ 10.000,00 por cliente. O tributo de 10% é fictício e exclusivamente did�
 
 Este projeto é independente da API de eventos do primeiro exercício.
 
+## Integrante
+
+**Daniel de Oliveira Barreto Moura** — trabalho individual.
+
 ## Tecnologias e organização
 
 - Java 21, Spring Boot 4.1.1, Spring Data JPA, Spring Cloud OpenFeign.
