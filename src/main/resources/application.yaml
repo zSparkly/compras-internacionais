@@ -1,0 +1,31 @@
+server:
+  port: ${SERVER_PORT:8081}
+  error:
+    include-stacktrace: never
+    include-exception: false
+    include-message: never
+spring:
+  application:
+    name: compras-internacionais
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/compras-internacionais?createDatabaseIfNotExist=true}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+  cloud:
+    openfeign:
+      client:
+        config:
+          awesomeApi:
+            connectTimeout: ${AWESOMEAPI_CONNECT_TIMEOUT:3000}
+            readTimeout: ${AWESOMEAPI_READ_TIMEOUT:5000}
+app:
+  zone-id: ${APP_ZONE_ID:America/Sao_Paulo}
+awesomeapi:
+  url: ${AWESOMEAPI_URL:https://economia.awesomeapi.com.br}

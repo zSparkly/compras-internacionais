@@ -1,0 +1,73 @@
+{
+  "simulacao": {
+    "response": {
+      "valorUSD": 99.99,
+      "cotacaoUtilizada": 4.966,
+      "valorConvertido": 496.55,
+      "taxaServico": 24.83,
+      "tributoSimulado": 49.66,
+      "valorFinalBRL": 571.04,
+      "dataCotacao": "2026-10-23",
+      "dataHoraCotacao": "2026-10-23T18:30:08"
+    },
+    "status": 200
+  },
+  "verificadoEm": "2026-10-23T19:47:35-03:00",
+  "registro": {
+    "request": {
+      "clienteId": "11111111-1111-1111-1111-111111111111",
+      "valorUSD": 200.0
+    },
+    "response": {
+      "id": "a2aede72-32a5-4aa8-901e-86149b34f18c",
+      "cliente": {
+        "id": "11111111-1111-1111-1111-111111111111",
+        "nome": "Ana Exemplo",
+        "email": "ana@example.com"
+      },
+      "valorUSD": 200.0,
+      "cotacaoUtilizada": 4.966,
+      "valorConvertido": 993.2,
+      "taxaServico": 19.86,
+      "tributoSimulado": 99.32,
+      "valorFinalBRL": 1112.38,
+      "dataCotacao": "2026-10-23",
+      "dataHoraCotacao": "2026-10-23T18:30:08",
+      "dataCompra": "2026-10-23T19:47:35.1892228"
+    },
+    "status": 201
+  },
+  "ambiente": "AwesomeAPI real + OpenFeign + MySQL 8.4.11",
+  "historico": {
+    "response": [
+      {
+        "id": "a2aede72-32a5-4aa8-901e-86149b34f18c",
+        "cliente": {
+          "id": "11111111-1111-1111-1111-111111111111",
+          "nome": "Ana Exemplo",
+          "email": "ana@example.com"
+        },
+        "valorUSD": 200.0,
+        "cotacaoUtilizada": 4.966,
+        "valorConvertido": 993.2,
+        "taxaServico": 19.86,
+        "tributoSimulado": 99.32,
+        "valorFinalBRL": 1112.38,
+        "dataCotacao": "2026-10-23",
+        "dataHoraCotacao": "2026-10-23T18:30:08",
+        "dataCompra": "2026-10-23T19:47:35.189223"
+      }
+    ],
+    "status": 200
+  },
+  "limite": {
+    "response": {
+      "clienteId": "11111111-1111-1111-1111-111111111111",
+      "mes": "2026-10",
+      "limiteMensal": 10000.0,
+      "totalUtilizado": 1112.38,
+      "saldoDisponivel": 8887.62
+    },
+    "status": 200
+  }
+}
