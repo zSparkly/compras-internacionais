@@ -289,11 +289,3 @@ Resultado verificado em **23/10/2026**: **68 testes aprovados**, sendo 36 unitá
 e 32 de integração, sem falhas, erros ou testes ignorados, em MySQL 8.4.11.
 Também foi realizada uma compra com a AwesomeAPI real, pela aplicação empacotada.
 Os relatórios e as respostas reais estão em [docs/testes/VALIDACAO.md](docs/testes/VALIDACAO.md).
-
-## 6. Entrega
-
-O PDF informa prazo até **31/10/2026**, individualmente ou em dupla, e pede código
-no GitHub com README de execução, banco e integração externa.
-O e-mail de entrega é `southiagorm@gmail.com`, com o assunto exato:
-**Segundo Exercício Pós Graduação BackEnd II**.
-No corpo devem constar o nome completo de cada integrante e o link do repositório.
